@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechTools</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">TechTools</a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle">More</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="https://www.amazon.com/Telecommunications-Essentials-Complete-Global-Source/dp/0321427610" target="_blank">Telecommunications Essentials</a></li>
+                        <li><a href="https://www.amazon.com/Network-Warrior-Everything-Infrastructure-Networking/dp/1449387861" target="_blank">Network Warrior</a></li>
+                        <li><a href="https://www.amazon.com/Computer-Networks-Andrew-Tanenbaum/dp/0132126958" target="_blank">Computer Networks</a></li>
+                        <li><a href="https://www.amazon.com/TCP-Illustrated-Protocols-Addison-Wesley-Professional/dp/0321336313" target="_blank">TCP/IP Illustrated</a></li>
+                        <li><a href="file:///Users/sdominguez/Documents/VSCode_workspace/VSCode_claude-website/VSCode_website-template/website.html">TechToolsDev</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>Telecommunications Resources</h1>
+                <p>A review of Telecommunications Crash Course Third Edition by Steven Shepard.</p>
+                <a href="#services" class="cta-button">Explore</a>
+            </div>
+            <div class="hero-image">
+                <img src="https://i5.walmartimages.com/seo/Telecommunications-Crash-Course-Hardcover-9780071832663_1f6c2235-2716-42f8-b16b-b95029d563d3.a2c6fc27ee5f08f72ad9e2a2be79d7e3.jpeg" alt="Telecommunications Guide">
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title fade-in">Services</h2>
+            <div class="services-grid">
+                <div class="service-card fade-in">
+                    <div class="service-icon">📖</div>
+                    <h3>About the Book</h3>
+                    <p>A comprehensive guide covering fundamental telecommunications concepts, modern network technologies, and industry best practices for professionals and students.</p>
+                </div>
+                <div class="service-card fade-in">
+                    <div class="service-icon">📋</div>
+                    <h3>Book Summary</h3>
+                    <p>An in-depth exploration of telecommunications systems, from basic principles to advanced network architectures, providing practical knowledge for real-world applications.</p>
+                </div>
+                <div class="service-card fade-in">
+                    <div class="service-icon">💡</div>
+                    <h3>Key Takeaways</h3>
+                    <p>Essential insights into network design, protocol fundamentals, emerging technologies, and industry trends that shape modern telecommunications infrastructure.</p>
+                </div>
+                <div class="service-card fade-in">
+                    <div class="service-icon">📚</div>
+                    <h3>Chapters</h3>
+                    <p>Structured learning modules covering network basics, transmission technologies, switching systems, wireless communications, and next-generation network solutions.</p>
+                </div>
+                <div class="service-card fade-in">
+                    <div class="service-icon">📝</div>
+                    <h3>Chapter Summaries</h3>
+                    <p>Detailed overviews of each chapter's core concepts, technical specifications, and practical applications in telecommunications engineering and management.</p>
+                </div>
+                <div class="service-card fade-in">
+                    <div class="service-icon">🎯</div>
+                    <h3>Key Chapter Takeaways</h3>
+                    <p>Critical learning points and actionable insights from each chapter, designed to reinforce understanding and support professional development goals.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title fade-in">About Telecommunications</h2>
+            <div class="about-content fade-in">
+                <p>Telecommunications forms the backbone of our modern interconnected world, enabling instant communication across vast distances and powering the digital economy that drives innovation and progress.</p>
+                
+                <div class="about-grid">
+                    <div class="about-item">
+                        <h3>Technology Sector</h3>
+                        <p>Advanced computing, artificial intelligence, and cloud services rely on robust telecommunications infrastructure to deliver seamless digital experiences and drive technological innovation.</p>
+                    </div>
+                    <div class="about-item">
+                        <h3>Media Sector</h3>
+                        <p>Streaming services, digital broadcasting, and content distribution depend on high-speed networks to deliver entertainment, news, and information to global audiences instantly.</p>
+                    </div>
+                    <div class="about-item">
+                        <h3>Telecommunications Sector</h3>
+                        <p>Network infrastructure, wireless technologies, and fiber optic systems form the foundation that enables all digital communication and data transmission worldwide.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title fade-in">Get In Touch</h2>
+            <form class="contact-form fade-in">
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="company">Company</label>
+                    <input type="text" id="company" name="company">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 TechTools. Advancing telecommunications worldwide.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
